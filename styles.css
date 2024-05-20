@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Style for the body, including the background image */
+body {
+    background-image: url('kayll.jpg');
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the background image */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text color for better contrast against the background */
+}
+
+/* Style for the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+}
+
+/* Style for the navigation bar */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the nav bar */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3); /* Hover effect for the links */
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the footer */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
